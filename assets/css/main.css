@@ -1992,7 +1992,7 @@ ol.default li {
 /* Wrappers */
 
 #header-wrapper {
-  background: url("images/bg01.jpg"), url("../../images/header.jpg");
+  background: url("images/bg01.webp"), url("../../images/header.jpg");
   background-position: top left, center center;
   background-size: cover;
   padding: 3em 0;
