@@ -2022,6 +2022,7 @@ ol.default li {
   background-position: top left, center center;
   background-size: cover;
   padding: 3em 0;
+  height: 100vh;
 }
 
 #main-wrapper {
