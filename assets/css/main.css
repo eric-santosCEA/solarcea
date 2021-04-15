@@ -1997,7 +1997,7 @@ ol.default li {
 #banner p {
   text-transform: uppercase;
   color: #fff;
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
   font-size: 1.5em;
   font-weight: 700;
   line-height: 1.3em;
