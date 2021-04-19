@@ -2069,6 +2069,10 @@ ol.default li {
   position: relative;
   z-index: 2;
 }
+.inner video {
+  width: 79px;
+  height: 79px;
+}
 
 .wrapper.style1 {
   position: relative;
