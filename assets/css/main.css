@@ -1506,8 +1506,12 @@ table.default thead {
 
 .image.featured {
   display: block;
-  width: 100%;
+  width: 80%;
   margin: 0 0 2.5em 0;
+  transition: all 0.2s ease;
+}
+.image.featured:hover {
+  width: 100%;
 }
 
 .image.left {
