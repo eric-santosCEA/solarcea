@@ -1506,12 +1506,12 @@ table.default thead {
 
 .image.featured {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: 0 0 2.5em 0;
   transition: all 0.2s ease;
 }
 .image.featured:hover {
-  width: 100%;
+  width: 110%;
 }
 
 .image.left {
@@ -1960,7 +1960,7 @@ ol.default li {
   width: 940px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 15em 0 6em 0;
+  padding: 10em 0 6em 0;
 }
 
 #banner h2 {
@@ -2069,9 +2069,8 @@ ol.default li {
   position: relative;
   z-index: 2;
 }
-.inner video {
-  width: 79px;
-  height: 79px;
+.inner img {
+  width: 80px;
 }
 
 .wrapper.style1 {
