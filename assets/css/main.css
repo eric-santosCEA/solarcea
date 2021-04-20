@@ -2687,3 +2687,6 @@ ol.default li {
     padding: 3em 0 1em 0;
   }
 }
+.about-image img {
+  width: 50vw;
+}
