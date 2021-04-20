@@ -1999,10 +1999,14 @@ ol.default li {
 }
 
 #banner p {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
   color: #fff;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 700;
   line-height: 1.3em;
   letter-spacing: 0.04em;
@@ -2253,6 +2257,8 @@ ol.default li {
   }
 
   #banner p {
+    border: 10px solid black;
+
     font-size: 1.25em;
     line-height: 1.75em;
     letter-spacing: 0.04em;
