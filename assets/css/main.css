@@ -2693,6 +2693,7 @@ ol.default li {
 
 @media only screen and (max-width: 600px) {
   .major iframe {
-    display: none;
+    width: auto;
+    height: fit-content;
   }
 }
