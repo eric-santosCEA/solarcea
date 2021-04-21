@@ -2690,3 +2690,9 @@ ol.default li {
 .about-image img {
   width: 50vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .major iframe {
+    display: none;
+  }
+}
