@@ -2692,9 +2692,15 @@ ol.default li {
 }
 
 @media only screen and (max-width: 600px) {
+  .major a {
+    width: 300px;
+  }
   .major iframe {
     width: auto;
     height: fit-content;
+  }
+  .join-team {
+    flex-flow: column;
   }
 }
 
