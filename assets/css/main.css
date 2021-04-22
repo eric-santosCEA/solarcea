@@ -2697,3 +2697,11 @@ ol.default li {
     height: fit-content;
   }
 }
+
+.image.featured img {
+  width: 90%;
+}
+.join-team {
+  display: flex;
+  justify-content: space-evenly;
+}
