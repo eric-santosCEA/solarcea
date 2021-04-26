@@ -108,35 +108,26 @@
 }
 @keyframes fa-spin {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0);
   }
   to {
     transform: rotate(1turn);
   }
 }
 .fa-rotate-90 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   transform: rotate(90deg);
 }
 .fa-rotate-180 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   transform: rotate(180deg);
 }
 .fa-rotate-270 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   transform: rotate(270deg);
 }
 .fa-flip-horizontal {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   transform: scaleX(-1);
 }
 .fa-flip-vertical {
   transform: scaleY(-1);
-}
-.fa-flip-both,
-.fa-flip-horizontal.fa-flip-vertical,
-.fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
 }
 .fa-flip-both,
 .fa-flip-horizontal.fa-flip-vertical {
@@ -145,9 +136,9 @@
 :root .fa-flip-both,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical,
-:root .fa-rotate-90,
 :root .fa-rotate-180,
-:root .fa-rotate-270 {
+:root .fa-rotate-270,
+:root .fa-rotate-90 {
   filter: none;
 }
 .fa-stack {
@@ -4349,7 +4340,7 @@
   font-display: swap;
   font-family: "Font Awesome 5 Brands";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-display: auto;
   src: url(../webfonts/fa-brands-400.eot);
   src: url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),
