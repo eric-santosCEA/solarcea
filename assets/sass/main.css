@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800");
 @import url("fontawesome-all.min.css");
 /*
 	ZeroFour by HTML5 UP
@@ -189,7 +189,7 @@ body,
 input,
 select,
 textarea {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #7b818c;
   font-weight: 400;
   font-size: 11pt;
@@ -1824,8 +1824,9 @@ ol.default li {
 }
 
 #banner p {
-  border: 10px solid black;
   text-transform: uppercase;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.75);
   font-size: 1.5em;
   font-weight: 700;
   line-height: 1.3em;
@@ -1844,7 +1845,7 @@ ol.default li {
 
 /* Wrappers */
 #header-wrapper {
-  background: url("images/bg01.png"), url("../../images/header.webp");
+  background: url("images/bg01.png"), url("../../images/header.jpg");
   background-position: top left, center center;
   background-size: auto, cover;
   padding: 3em 0;
